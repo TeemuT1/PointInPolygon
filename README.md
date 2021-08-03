@@ -3,7 +3,7 @@ An algorithm to determine whether a point is inside a polygon written in C++.
 
 The main program creates a polygon and tests the algorithm with some points. The algorithm is in the polygon class' containsPoint method.
 
-The algorithm uses the ray casting method. If a line is drawn starting from the point towards infinity to the right, count how many times it would intersect with the polygon's sides. If it intersects an odd number of times, it is inside the polygon, if even, outside.
+The algorithm uses the ray casting method. If a line is drawn starting from the point towards infinity to the right, count how many times it would intersect with the polygon's sides. If it intersects an odd number of times, the point is inside the polygon, if even, outside.
 
 Edge cases:
 1. Point has the same x-coordinate as a vertical line: will not intersect
